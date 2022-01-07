@@ -21,6 +21,47 @@
             justify-content: stretch;
         }
 
+        .carousel-img {
+            height: 400px;
+            object-fit: scale-down;
+            background-color: transparent;
+        }
+        .carousel-inner {
+            background-color: rgb(255, 255, 255);
+        }
+
+        .carousel-caption {
+            background-color: rgba(0, 0, 0, 0.199);
+        }
+
+        .trending-container {
+            width: 100%;
+        }
+
+        .trending-products {
+            width: 20%;
+            height: 250px;
+            display: flex;
+            flex-direction: column;
+            justify-content: center;
+            align-items: center;
+        }
+
+        .trending-products a {
+            text-decoration: none;
+            color: rgb(49, 49, 49);
+        }
+
+        .trending-img {
+            width: 100%;
+            height: 160px;
+            object-fit: contain
+        }
+
+        .detail-img img{
+            height: 200px;
+        }
+
         .footer {
             background-color: rgb(247, 247, 247);
             height: 11%;
